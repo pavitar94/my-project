@@ -88,40 +88,11 @@ const Login = () => {
                 <InputGroup className="input-group-alternative">
                   <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      <i className="ni ni-fat-add" />
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="First Name"
-                    type="text"
-                    autoComplete="first-name"
-                  />
-                </InputGroup>
-              </FormGroup>
-              <FormGroup className="mb-3">
-                <InputGroup className="input-group-alternative">
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="ni ni-fat-add" />
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="Last Name"
-                    type="text"
-                    autoComplete="last-name"
-                  />
-                </InputGroup>
-              </FormGroup>
-
-              <FormGroup className="mb-3">
-                <InputGroup className="input-group-alternative">
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
                       <i className="ni ni-email-83" />
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
-                    placeholder="Bussiness Email"
+                    placeholder="Email"
                     type="email"
                     autoComplete="new-email"
                   />
