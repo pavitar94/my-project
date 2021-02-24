@@ -17,6 +17,7 @@
 */
 import Index from "views/Index.js";
 import Profile from "views/examples/Profile.js";
+import CompanyProfile from "views/examples/CompanyProfile.js";
 import Maps from "views/examples/Maps.js";
 import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
@@ -50,6 +51,13 @@ var routes = [
     name: "User Profile",
     icon: "ni ni-single-02 text-yellow",
     component: Profile,
+    layout: "/admin",
+  },
+  {
+    path: "/company-profile",
+    name: "Company Profile",
+    icon: "ni ni-single-02 text-yellow",
+    component: CompanyProfile,
     layout: "/admin",
   },
   {
